@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Form</title>
+</head>
+<body>
+
+    <header>
+        <h1>Contact the Faculty</h1>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Send an Inquiry</h2>
+
+        <form>
+            <label for="fullname">Full Name:</label><br>
+            <input type="text" id="fullname" name="fullname"><br><br>
+
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="interest">Area of Interest:</label><br>
+            <select id="interest" name="interest">
+                <option value="">Select an area</option>
+                <option value="courses">Courses and Teaching</option>
+                <option value="web-development">Web Development</option>
+                <option value="other">Other</option>
+            </select><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5"></textarea><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <p><a href="index.html">Return to Homepage</a></p>
+    </main>
+
+
+</body>
+</html>
