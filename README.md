@@ -8,6 +8,7 @@ A simple faculty website. It includes a faculty homepage and a contact form.
 - index.html - Faculty homepage
 - contact.html - Contact form
 - images/ - Website images
+- style.css
 
 ## How to View
 1. Download the project files.
