@@ -1,0 +1,42 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: black;
+}
+
+header {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+}
+
+main {
+    width: 80%;
+    margin: 20px auto;
+}
+
+h2 {
+    color: navy;
+}
+
+.button, button {
+    background-color: navy;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+footer {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
